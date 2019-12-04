@@ -16,8 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    npm install jest
+    npm install --save-dev jest
     npm install selenium-webdriver
-    jest
-  displayName: 'npm install and build'
+    npm install chromedriver
+  displayName: 'npm install jest, selenium, chrome'
