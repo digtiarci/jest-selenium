@@ -17,4 +17,5 @@ steps:
 
 - script: |
     npm install
+    jest
   displayName: 'npm install and build'
