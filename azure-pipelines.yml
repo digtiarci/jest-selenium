@@ -19,4 +19,9 @@ steps:
     npm install --save-dev jest
     npm install selenium-webdriver
     npm install chromedriver
+    npm run test
   displayName: 'npm install jest, selenium, chrome'
+
+  script: |
+    npm run test
+  displayName: 'run test'
