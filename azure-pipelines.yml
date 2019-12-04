@@ -17,5 +17,7 @@ steps:
 
 - script: |
     npm install
+    npm install jest
+    npm install selenium-webdriver
     jest
   displayName: 'npm install and build'
