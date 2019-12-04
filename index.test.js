@@ -13,8 +13,6 @@ beforeAll(async () => {
   driver = await new Builder().forBrowser('firefox').build()
 })
 
-afterAll(async () => await driver.quit())
-
 it('initialises the context', async () => {
   await driver.get(rootURL)
 })
